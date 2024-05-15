@@ -58,7 +58,7 @@ const Sidebar = ({current}) => {
             </div>
             {user?.name && <p style={{color: '#111'}}> {user.name}</p>}
             {user?.email && <p style={{fontSize: '13px', color: '#fafafa'}}>{user.email}</p>}
-            {/* <span>stevejones035@gmail.com</span> */}
+            <span>stevejones035@gmail.com</span>
         </div>
         <div className="menu">
             <ul>

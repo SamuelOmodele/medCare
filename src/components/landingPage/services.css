@@ -1,0 +1,86 @@
+.services{
+    width: 100%;
+    min-height: 100vh;
+    padding: 150px 100px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../../images/curve-shape-1.png');
+    background-repeat: no-repeat;
+    background-position-y: 250px;
+}
+.texts{
+    text-align: center;
+}
+.texts h2{
+    font-size: 36px;
+    font-weight: 600;
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 15px;
+}
+.texts h2:before{
+    content: "";
+    position: absolute;
+    width: 25%;
+    height: 1.5px;
+    background-color: black;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+.texts p{
+    max-width: 60%;
+    /* background-color: red; */
+    margin: auto;
+    margin-top: 35px;
+    color: #555;
+    line-height: 1.8;
+    font-size: 15px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: red; */
+    justify-content: space-between;
+    margin-top: 60px;
+    width: 80%;
+}
+.cards .card{
+    flex-basis: 46%;
+    background-color: white;
+    margin-bottom: 60px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.1);
+}
+.card img{
+    margin-bottom: 15px;
+}
+.card h2{
+    margin-bottom: 20px;
+}
+.card p{
+    margin-bottom: 60px;
+    font-size: 14px;
+    color: #555;
+    font-weight: 400;
+}
+button{
+    width: 200px;
+    height: 55px;
+    background-color: transparent;
+    border: 1.5px solid #126FE9;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #458ff6;
+    transition: .4s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #126FE9;
+    color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+}

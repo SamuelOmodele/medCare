@@ -1,0 +1,139 @@
+.login{
+    width: 100%;
+    min-height: calc(120vh - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../images/curve-shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position-y: 200px;
+    padding: 100px 0;
+    position: relative;
+}
+.login .card{
+    width: 720px;
+    height: 440px;
+    background-color: white;
+    display: flex;
+    box-shadow: 3px 5px 12px  rgba(0, 0, 0, 0.35);
+    padding: 0 5px;
+    border-radius: 5px;
+}
+.login .card .login-form{
+    width: 50%;
+    height: 100%;
+    padding: 15px 20px;
+}
+.login .card .login-image{
+    width: 50%;
+    height: 100%;
+    /* background-color: #126FE9; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-image img{
+    width: 100%;
+}
+.login-form h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.login-form .form-control{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.login-form .form-control:nth-child(3){
+    display: flex;
+    align-items: baseline;
+}
+.login-form .form-control:last-child{
+    margin-top: 20px;
+}
+.login-form .form-control label{
+    margin-bottom: 6px;
+    display: block;
+    color: #222;
+}
+.login-form .form-control input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cac9d9;
+    font-size: 14.5px;
+    border-radius: 2px 20px 20px 2px;
+    outline: none;
+}
+.login-form .form-control input:focus{
+    border-color: #126FE9;
+    border-width: 1.5px;
+    padding: 9.5px 10px;
+}
+.login-form .form-control button{
+    width: 45%;
+    height: 42px;
+    margin-top: 10px;
+    border: 1px solid #126FE9;
+    margin-right: 20px;
+}
+.login-form .form-control button:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.35);
+}
+
+span{
+    font-size: 15px;
+    color: #444;
+}
+span.forgot{
+    font-size: 15px;
+    color: #126FE9;
+}
+span.acct{
+    font-size: 15px;
+    color: #333;
+}
+span.acct a{
+    font-size: 15px;
+    color: #126FE9;
+    text-decoration: none;
+}
+span.acct a:hover, span.forgot:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.error{
+    position: absolute;
+    background-color: #f64545;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.45);
+    top: 40px;
+    animation-name: slide--down;
+    animation-duration: .25s;
+}
+.error-text{
+    margin-right: 20px;
+}
+.error span{
+    color: white;
+}
+.error span:nth-child(1){
+    margin-right: 15px;
+}
+.error span:nth-child(3){
+    margin-left: auto;
+    cursor: pointer;
+}
+@keyframes slide--down {
+    0%{
+        top: 25px;
+        opacity: 0;
+    } 100% {
+        top: 40px;
+        opacity: 1;
+    }
+}

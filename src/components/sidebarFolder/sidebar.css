@@ -1,0 +1,67 @@
+.sidebar{
+    width: 320px;
+    height: 100vh;
+    background-color: #126FE9;
+    padding: 50px 20px 0;
+    position: relative;
+}
+.side-logo{
+    display: grid;
+    place-items: center;
+}
+.side-logo p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.side-logo span{
+    font-size: 15px;
+    color: #fff;
+}
+.img-logo{
+    width: 90px;
+    margin-bottom: 10px;
+}
+.img-logo img{
+    width: 100%;
+}
+.menu{
+    margin-top: 35px;
+}
+.menu li{
+    display: block;
+    margin-bottom: 30px;
+    padding-left: 35px;
+    font-weight: 600;
+    color: #eee;
+    position: relative;
+    cursor: pointer;
+    transition: .2s;
+}
+.menu li:after{
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    left: -30px;
+    top: 0;
+    background-color: #fff;
+    display: none;
+    border-radius: 10px;
+}
+.menu li:hover, .menu li:hover span, .menu li:hover i{
+    color: black;
+}
+.menu li i, .menu li span{
+    position: absolute;
+    left: 0;
+    color: white;
+    font-size: 24px;
+    transition: .2s;
+}
+.bottom{
+    position: absolute;
+    bottom: 0;
+}
+li.active-link::after{
+    display: block;
+}

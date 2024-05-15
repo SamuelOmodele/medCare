@@ -1,0 +1,41 @@
+.healthcareprovider{
+    /* background-color: #126FE9; */
+    background-color: #458ff6;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 80px 150px 80px 40px;
+    gap: 60px;
+}
+.healthcareprovider .image{
+    flex-basis: 45%;
+}
+.healthcareprovider .content{
+    flex-basis: 48%;
+}
+.healthcareprovider .content h2{
+    font-size: 38px;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 30px;
+}
+.healthcareprovider .content h2:before{
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 2.5px;
+    background-color: #fff;
+    left: 0;
+    bottom: 0;
+}
+.healthcareprovider .content button{
+    background-color: transparent;
+    border: 1.5px solid #fff;
+    color: white;
+    
+}
+.healthcareprovider .content button:hover{
+    background-color: #fff;
+    color: #458ff6;
+
+}

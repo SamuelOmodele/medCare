@@ -1,0 +1,65 @@
+.signup{
+    width: 100%;
+    min-height: calc(120vh - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../images/curve-shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position-y: 200px;
+    padding: 100px 0 75px;
+    position: relative;
+}
+.signup .card{
+    width: 800px;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    box-shadow: 3px 5px 12px  rgba(0, 0, 0, 0.35);
+}
+.signup .card .signup-form{
+    width: 50%;
+    height: 100%;
+    padding: 15px 30px 15px 20px;
+}
+.signup .card .signup-image{
+    width: 50%;
+    /* background-color: red; */
+}
+.signup-image img{
+    width: 100%;
+}
+.signup-form h2{
+    margin-top: 20px;
+    text-align: center;
+}
+.signup-form .form-control{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.signup-form .form-control label{
+    margin-bottom: 10px;
+    display: block;
+    color: #333;
+}
+.signup-form .form-control input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid silver;
+    font-size: 15px;
+    border-radius: 3px;
+    outline: none;
+}
+.signup-form .form-control input:focus{
+    border-color: #126FE9;
+    border-width: 1.5px;
+    padding: 9.5px 10px;
+}
+.signup-form .form-control button{
+    width: 40%;
+    height: 42px;
+    margin-top: 10px;
+    border-width: 1px;
+}

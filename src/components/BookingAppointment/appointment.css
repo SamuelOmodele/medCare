@@ -1,0 +1,66 @@
+.appointment{
+    background-color: #F0F1F3;
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.appointment-form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0;
+}
+.appointment-form form{
+    background-color: white;
+    padding: 20px;
+    width: 55%;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+.appointment-form form span{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transform: .2s;
+}
+.appointment-form form span:hover{
+    color: #126FE9;
+}
+.appointment-form form h2{
+    border-bottom: 1px solid silver;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.appointment-form form .form-control{
+    width: 100%;
+}
+.appointment-form form .form-control input, .appointment-form form .form-control textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cac9d9;
+    font-size: 15px;
+    outline: none;
+    margin-bottom: 10px;
+}
+.appointment-form form .form-control input:focus, .appointment-form form .form-control textarea:focus{
+    outline: 1px solid #126FE9;
+}
+.appointment-form form .form-control label{
+    margin: 5px 0;
+    display: block;
+    font-size: 15px;
+    color: #444;
+}
+button.btn-appointment{
+    width: 100%;
+    border-radius: 5px;
+    border-width: 1px;
+    transition: .2s;
+}
+button.btn-appointment:hover{
+    box-shadow: none;
+}
